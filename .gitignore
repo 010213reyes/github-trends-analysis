@@ -1,0 +1,37 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# Notebooks (puedes quitarlo si quieres subir los notebooks)
+# Si quieres subir los notebooks, elimina estas líneas:
+# *.ipynb
+# .ipynb_checkpoints/
+
+# Archivos de datos (opcional, si no quieres subir datos grandes)
+data/*.csv
+data/*.xlsx
+data/*.json
+!data/.gitkeep
+
+# IDE y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
